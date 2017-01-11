@@ -76,7 +76,8 @@ differ depending on the actual Linux distribution.
 
 Build as:
 
-    cmake -H. -Bbuild -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_PREFIX_PATH=~/QtX.Y.Z/X.Y/clang_64
+    
+    cmake -H. -Bbuild -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_PREFIX_PATH=/usr/local/opt/qtX/
     make -C build
 
 
